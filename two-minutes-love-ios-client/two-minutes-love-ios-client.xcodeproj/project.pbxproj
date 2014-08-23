@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DB56EF19A92C83005376B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB56EE19A92C83005376B1 /* Foundation.framework */; };
+		89DB56F119A92C83005376B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB56F019A92C83005376B1 /* CoreGraphics.framework */; };
+		89DB56F319A92C83005376B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB56F219A92C83005376B1 /* UIKit.framework */; };
+		89DB56F919A92C83005376B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89DB56F719A92C83005376B1 /* InfoPlist.strings */; };
+		89DB56FB19A92C83005376B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB56FA19A92C83005376B1 /* main.m */; };
+		89DB56FF19A92C83005376B1 /* ARKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB56FE19A92C83005376B1 /* ARKAppDelegate.m */; };
+		89DB570119A92C83005376B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DB570019A92C83005376B1 /* Images.xcassets */; };
+		89DB570819A92C83005376B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB570719A92C83005376B1 /* XCTest.framework */; };
+		89DB570919A92C83005376B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB56EE19A92C83005376B1 /* Foundation.framework */; };
+		89DB570A19A92C83005376B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DB56F219A92C83005376B1 /* UIKit.framework */; };
+		89DB571219A92C83005376B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89DB571019A92C83005376B1 /* InfoPlist.strings */; };
+		89DB571419A92C83005376B1 /* two_minutes_love_ios_clientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DB571319A92C83005376B1 /* two_minutes_love_ios_clientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DB570B19A92C83005376B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DB56E319A92C83005376B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DB56EA19A92C83005376B1;
+			remoteInfo = "two-minutes-love-ios-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DB56EB19A92C83005376B1 /* two-minutes-love-ios-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "two-minutes-love-ios-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB56EE19A92C83005376B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89DB56F019A92C83005376B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89DB56F219A92C83005376B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89DB56F619A92C83005376B1 /* two-minutes-love-ios-client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "two-minutes-love-ios-client-Info.plist"; sourceTree = "<group>"; };
+		89DB56F819A92C83005376B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89DB56FA19A92C83005376B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89DB56FC19A92C83005376B1 /* two-minutes-love-ios-client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "two-minutes-love-ios-client-Prefix.pch"; sourceTree = "<group>"; };
+		89DB56FD19A92C83005376B1 /* ARKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARKAppDelegate.h; sourceTree = "<group>"; };
+		89DB56FE19A92C83005376B1 /* ARKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARKAppDelegate.m; sourceTree = "<group>"; };
+		89DB570019A92C83005376B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89DB570619A92C83005376B1 /* two-minutes-love-ios-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "two-minutes-love-ios-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DB570719A92C83005376B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		89DB570F19A92C83005376B1 /* two-minutes-love-ios-clientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "two-minutes-love-ios-clientTests-Info.plist"; sourceTree = "<group>"; };
+		89DB571119A92C83005376B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89DB571319A92C83005376B1 /* two_minutes_love_ios_clientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = two_minutes_love_ios_clientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DB56E819A92C83005376B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB56F119A92C83005376B1 /* CoreGraphics.framework in Frameworks */,
+				89DB56F319A92C83005376B1 /* UIKit.framework in Frameworks */,
+				89DB56EF19A92C83005376B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB570319A92C83005376B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB570819A92C83005376B1 /* XCTest.framework in Frameworks */,
+				89DB570A19A92C83005376B1 /* UIKit.framework in Frameworks */,
+				89DB570919A92C83005376B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DB56E219A92C83005376B1 = {
+			isa = PBXGroup;
+			children = (
+				89DB56F419A92C83005376B1 /* two-minutes-love-ios-client */,
+				89DB570D19A92C83005376B1 /* two-minutes-love-ios-clientTests */,
+				89DB56ED19A92C83005376B1 /* Frameworks */,
+				89DB56EC19A92C83005376B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DB56EC19A92C83005376B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DB56EB19A92C83005376B1 /* two-minutes-love-ios-client.app */,
+				89DB570619A92C83005376B1 /* two-minutes-love-ios-clientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DB56ED19A92C83005376B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DB56EE19A92C83005376B1 /* Foundation.framework */,
+				89DB56F019A92C83005376B1 /* CoreGraphics.framework */,
+				89DB56F219A92C83005376B1 /* UIKit.framework */,
+				89DB570719A92C83005376B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DB56F419A92C83005376B1 /* two-minutes-love-ios-client */ = {
+			isa = PBXGroup;
+			children = (
+				89DB56FD19A92C83005376B1 /* ARKAppDelegate.h */,
+				89DB56FE19A92C83005376B1 /* ARKAppDelegate.m */,
+				89DB570019A92C83005376B1 /* Images.xcassets */,
+				89DB56F519A92C83005376B1 /* Supporting Files */,
+			);
+			path = "two-minutes-love-ios-client";
+			sourceTree = "<group>";
+		};
+		89DB56F519A92C83005376B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89DB56F619A92C83005376B1 /* two-minutes-love-ios-client-Info.plist */,
+				89DB56F719A92C83005376B1 /* InfoPlist.strings */,
+				89DB56FA19A92C83005376B1 /* main.m */,
+				89DB56FC19A92C83005376B1 /* two-minutes-love-ios-client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89DB570D19A92C83005376B1 /* two-minutes-love-ios-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DB571319A92C83005376B1 /* two_minutes_love_ios_clientTests.m */,
+				89DB570E19A92C83005376B1 /* Supporting Files */,
+			);
+			path = "two-minutes-love-ios-clientTests";
+			sourceTree = "<group>";
+		};
+		89DB570E19A92C83005376B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89DB570F19A92C83005376B1 /* two-minutes-love-ios-clientTests-Info.plist */,
+				89DB571019A92C83005376B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DB56EA19A92C83005376B1 /* two-minutes-love-ios-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB571719A92C83005376B1 /* Build configuration list for PBXNativeTarget "two-minutes-love-ios-client" */;
+			buildPhases = (
+				89DB56E719A92C83005376B1 /* Sources */,
+				89DB56E819A92C83005376B1 /* Frameworks */,
+				89DB56E919A92C83005376B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "two-minutes-love-ios-client";
+			productName = "two-minutes-love-ios-client";
+			productReference = 89DB56EB19A92C83005376B1 /* two-minutes-love-ios-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DB570519A92C83005376B1 /* two-minutes-love-ios-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DB571A19A92C83005376B1 /* Build configuration list for PBXNativeTarget "two-minutes-love-ios-clientTests" */;
+			buildPhases = (
+				89DB570219A92C83005376B1 /* Sources */,
+				89DB570319A92C83005376B1 /* Frameworks */,
+				89DB570419A92C83005376B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DB570C19A92C83005376B1 /* PBXTargetDependency */,
+			);
+			name = "two-minutes-love-ios-clientTests";
+			productName = "two-minutes-love-ios-clientTests";
+			productReference = 89DB570619A92C83005376B1 /* two-minutes-love-ios-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DB56E319A92C83005376B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ARK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicholas Piano";
+				TargetAttributes = {
+					89DB570519A92C83005376B1 = {
+						TestTargetID = 89DB56EA19A92C83005376B1;
+					};
+				};
+			};
+			buildConfigurationList = 89DB56E619A92C83005376B1 /* Build configuration list for PBXProject "two-minutes-love-ios-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89DB56E219A92C83005376B1;
+			productRefGroup = 89DB56EC19A92C83005376B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DB56EA19A92C83005376B1 /* two-minutes-love-ios-client */,
+				89DB570519A92C83005376B1 /* two-minutes-love-ios-clientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DB56E919A92C83005376B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB56F919A92C83005376B1 /* InfoPlist.strings in Resources */,
+				89DB570119A92C83005376B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB570419A92C83005376B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB571219A92C83005376B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DB56E719A92C83005376B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB56FB19A92C83005376B1 /* main.m in Sources */,
+				89DB56FF19A92C83005376B1 /* ARKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DB570219A92C83005376B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DB571419A92C83005376B1 /* two_minutes_love_ios_clientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DB570C19A92C83005376B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DB56EA19A92C83005376B1 /* two-minutes-love-ios-client */;
+			targetProxy = 89DB570B19A92C83005376B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89DB56F719A92C83005376B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DB56F819A92C83005376B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89DB571019A92C83005376B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DB571119A92C83005376B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DB571519A92C83005376B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DB571619A92C83005376B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DB571819A92C83005376B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "two-minutes-love-ios-client/two-minutes-love-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "two-minutes-love-ios-client/two-minutes-love-ios-client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89DB571919A92C83005376B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "two-minutes-love-ios-client/two-minutes-love-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "two-minutes-love-ios-client/two-minutes-love-ios-client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		89DB571B19A92C83005376B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/two-minutes-love-ios-client.app/two-minutes-love-ios-client";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "two-minutes-love-ios-client/two-minutes-love-ios-client-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "two-minutes-love-ios-clientTests/two-minutes-love-ios-clientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		89DB571C19A92C83005376B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/two-minutes-love-ios-client.app/two-minutes-love-ios-client";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "two-minutes-love-ios-client/two-minutes-love-ios-client-Prefix.pch";
+				INFOPLIST_FILE = "two-minutes-love-ios-clientTests/two-minutes-love-ios-clientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DB56E619A92C83005376B1 /* Build configuration list for PBXProject "two-minutes-love-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB571519A92C83005376B1 /* Debug */,
+				89DB571619A92C83005376B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DB571719A92C83005376B1 /* Build configuration list for PBXNativeTarget "two-minutes-love-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB571819A92C83005376B1 /* Debug */,
+				89DB571919A92C83005376B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89DB571A19A92C83005376B1 /* Build configuration list for PBXNativeTarget "two-minutes-love-ios-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DB571B19A92C83005376B1 /* Debug */,
+				89DB571C19A92C83005376B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DB56E319A92C83005376B1 /* Project object */;
+}
